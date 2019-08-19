@@ -1,0 +1,19 @@
+'''
+Achraf Dayoub
+08/19/2019
+MyFirstPythonProgram.py
+This Program will caculate the Average
+of Number of elements that you will determine
+'''
+NumOfElements = 3                               'Number of elements'
+count = 0                                       'Counter'
+TotalNum = 0                                    'variable to caculate total Numbers'
+
+while (count < NumOfElements):                  'loop will add the numbers'
+    count = count + 1                           'Counter will count the steps'
+    Num = float(input ('Type an integer:\t'))   'Get an input Number from the user'
+    TotalNum = Num + TotalNum                   'Calcuate the Total Number'
+
+AvgNum = TotalNum / count                       'Calculate the Average'
+
+print ('Your Average number is:\t',AvgNum)      'Display the average on the screen'
