@@ -1,0 +1,13 @@
+'''
+Achraf Dayoub
+08/26/2019
+Fahrenheit_To_Celsius.py
+This Program will convert the tempreture from
+Fahrenheit to Celsius
+'''
+
+F = 0                                                       # intialize variable input
+C = 0                                                       # intialize variable output
+F = float(input ('Type a tempreture in Fahrenheit:\t'))     # prompt the user to input a tempreture in Fahrenheit
+C = (F − 32) × 5/9                                          # Calcuate the tempreture in Celsius
+print ('The Tempreture in Celsius is:\t',C)                 # Output the Tempreture in Celsius
